@@ -1,0 +1,59 @@
+# Business — Generative Engine Optimization Map
+
+---
+
+## Pages
+
+### בית
+https://example.com
+תיווך נדל״ן מקצועי שמחבר בין קונים, מוכרים ושוכרים לנכסים המושלמים. רעציק סגל-תווך מוריה כאן להפוך את חלום הנדל״ן שלכם למציאות. התחילו עכשיו!
+
+### שירותי תיווך
+https://example.com/services
+גלו את מגוון שירותי התיווך המקצועיים שלנו לרוכשים ראשונים, משקיעים ומוכרים. תיווך דירות לרוכשים ראשונים בליווי אישי מלא לאורך כל הדרך. בואו לגלות!
+
+### אודות
+https://example.com/about
+היכרו עם הצוות המקצועי שמאחורי רעציק סגל-תווך מוריה — מתווך נדל״ן מומלץ בישראל עם ניסיון עשיר, ערכים של שקיפות ומחויבות מלאה להצלחת הלקוח. גלו מי אנחנו!
+
+### צור קשר
+https://example.com/contact
+רוצים לקנות, למכור או להשכיר נכס? צרו קשר עם מומחי תיווך הנדל״ן שלנו עוד היום ותקבלו ייעוץ ראשוני ללא עלות. אנחנו כאן לענות על כל שאלה ולהתניע את התהליך!
+
+### Products
+https://example.com/products
+המוצרים שלנו - רעציק סגל-תווך מוריה
+
+### Product Detail
+https://example.com/product/:slug
+פרטי המוצר - רעציק סגל-תווך מוריה
+
+### Category
+https://example.com/category/:slug
+מוצרים - רעציק סגל-תווך מוריה
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Business
+---
+
+# Additional Resources
+
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
