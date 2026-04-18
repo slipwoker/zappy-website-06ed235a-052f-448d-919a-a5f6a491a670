@@ -243,7 +243,7 @@
     <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon-512x512.png">
     <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
     <!-- Cookie Consent -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css">
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
@@ -323,10 +323,10 @@
       <div class="search-wrapper">
         <input type="text" id="mobile-search-input" placeholder="חיפוש מוצרים..." autocomplete="off">
         <button class="search-submit" id="mobile-search-submit" title="חיפוש">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
         </button>
         <button class="close-search" id="close-mobile-search">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"></path></svg>
         </button>
       </div>
       <div class="search-results" id="mobile-search-results"></div>
@@ -369,12 +369,12 @@
 
       <!-- Column 1: Company Info -->
       <div class="footer-col footer-brand">
-        <img src="/assets/business-logo.webp" alt="רעציק סגל-תווך מוריה" class="logo" />
+        <img src="/assets/business-logo.webp" alt="רעציק סגל-תווך מוריה" class="logo" data-zappy-footer-image="true">
         <p class="footer-tagline">מומחיות מקומית. תוצאות אמיתיות.<br>נדל"ן ברמה אחרת.</p>
         <div class="footer-social">
           <a href="[facebook_handle]" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-          <a href="[instagram_handle]" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-          <a href="[whatsapp_handle]" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="[instagram_handle]" aria-label="Instagram"><i class="fab fa-instagram" data-element-type="icon" data-element-id="icon-1776507168257-q6csiwsua" data-icon-type="fontawesome"></i></a>
+          <a href="[whatsapp_handle]" aria-label="WhatsApp"><i class="fab fa-whatsapp" data-element-type="icon" data-element-id="icon-1776507168257-nxqoax7hs" data-icon-type="fontawesome"></i></a>
         </div>
       </div>
 
@@ -393,11 +393,11 @@
         <h4 class="footer-heading"><span class="heading-accent"></span>יצירת קשר</h4>
         <ul class="footer-contact">
           <li>
-            <span class="contact-icon"><i class="fas fa-envelope"></i></span>
+            <span class="contact-icon"><i class="fas fa-envelope" data-element-type="icon" data-element-id="icon-1776507168257-z6vqueotn" data-icon-type="fontawesome"></i></span>
             <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
           </li>
           <li>
-            <span class="contact-icon"><i class="fas fa-phone"></i></span>
+            <span class="contact-icon"><i class="fas fa-phone" data-element-type="icon" data-element-id="icon-1776507168257-7x9mlnpgy" data-icon-type="fontawesome"></i></span>
             <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
           </li>
           <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
@@ -410,8 +410,8 @@
         <div class="footer-cta-card">
           <div class="cta-label">מוכנים להתחיל?</div>
           <p class="cta-body">מצאו את הנכס המושלם עם ליווי מקצועי אישי.</p>
-          <a href="/contact" class="cta-btn">דברו איתנו</a>
-        </div>
+          <p class="zappy-editable"><a href="/contact" class="cta-btn" data-element-type="button" data-element-id="btn-1776507168251-o5up41gmf" data-native-element="true">דברו איתנו</a>
+        </p></div>
       </div>
 
     </div>
@@ -421,7 +421,7 @@
 
     <!-- Bottom Bar -->
     <div class="footer-bottom">
-      <div class="footer-copyright">© 2026 רעציק סגל-תווך מוריה. כל הזכויות שמורות.</div>
+      <div class="footer-copyright" >© 2026 איציק<span style="font-size: 0.8rem; letter-spacing: 0.01em;">&nbsp;סגל-תווך מוריה. כל הזכויות שמורות.</span></div>
       <div class="footer-legal">
         <a href="/privacy">מדיניות פרטיות</a>
         <span class="legal-sep"></span>
@@ -519,6 +519,7 @@
   })();
   </script>
     <div data-integration="accessibility:toolbar"></div>
+
 
     <script src="/script.js"></script>
 
