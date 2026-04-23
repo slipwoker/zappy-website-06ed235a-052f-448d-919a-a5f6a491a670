@@ -20,7 +20,7 @@ https://example.com/about
 https://example.com/contact
 רוצים לקנות, למכור או להשכיר נכס? צרו קשר עם מומחי תיווך הנדל״ן שלנו עוד היום ותקבלו ייעוץ ראשוני ללא עלות. אנחנו כאן לענות על כל שאלה ולהתניע את התהליך!
 
-### Products
+### דירות
 https://example.com/products
 המוצרים שלנו - רעציק סגל-תווך מוריה
 
@@ -28,7 +28,7 @@ https://example.com/products
 https://example.com/product/:slug
 פרטי המוצר - רעציק סגל-תווך מוריה
 
-### Category
+### דירות
 https://example.com/category/:slug
 מוצרים - רעציק סגל-תווך מוריה
 

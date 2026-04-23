@@ -336,7 +336,7 @@
 
     <div class="mobile-search-panel" id="mobile-search-panel">
       <div class="search-wrapper">
-        <input type="text" id="mobile-search-input" placeholder="חיפוש מוצרים..." autocomplete="off">
+        <input type="text" id="mobile-search-input" placeholder="חיפוש דירות..." autocomplete="off">
         <button class="search-submit" id="mobile-search-submit" title="חיפוש">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
         </button>
@@ -358,7 +358,7 @@
     </svg>
   </button>
 
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+  <button class="phone-header-btn" data-phone="0505501454" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
@@ -373,18 +373,18 @@
 
     <li class="menu-item-has-children zappy-products-dropdown">
       <a href="/products">
-        מוצרים
+        דירות
         <svg class="dropdown-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M6 9l6 6 6-6"></path>
         </svg>
       </a>
       <ul class="sub-menu" id="zappy-nav-category-links">
-        <li><a href="/products">כל המוצרים</a></li>
+        <li><a href="/products">כל הדירות</a></li>
         <!-- Categories will be loaded dynamically -->
       </ul>
     </li>
   <li><a href="/services">שירותי תיווך</a></li><li><a href="/about">אודות</a></li><li><a href="/contact">צור קשר</a></li></ul><div class="nav-ecommerce-icons nav-icons-left"><div class="nav-search-box">
-    <input type="text" class="nav-search-input" id="nav-search-input" placeholder="חיפוש מוצרים..." autocomplete="off">
+    <input type="text" class="nav-search-input" id="nav-search-input" placeholder="חיפוש דירות..." autocomplete="off">
     <button class="nav-search-btn" id="nav-search-btn" title="חיפוש">
       <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
     </button>
@@ -779,7 +779,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '0505501454';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -884,10 +884,10 @@
       <div class="container">
         <h2 class="section-title">מוצרים מומלצים</h2>
         <div class="product-grid featured-grid" id="zappy-featured-products">
-          <div class="loading-products">טוען מוצרים...</div>
+          <div class="loading-products">טוען דירות...</div>
         </div>
         <div class="view-all-products">
-          <a href="/products" class="btn btn-primary">צפה בכל המוצרים →</a>
+          <a href="/products" class="btn btn-primary">צפה בכל הדירות →</a>
         </div>
       </div>
     </section>
@@ -897,7 +897,7 @@
       <div class="container">
         <h2 class="section-title">קנו לפי קטגוריה</h2>
         <div class="category-blocks" id="zappy-featured-categories">
-          <div class="loading-categories">טוען מוצרים...</div>
+          <div class="loading-categories">טוען דירות...</div>
         </div>
       </div>
     </section>
@@ -926,7 +926,7 @@
 
     <nav class="zappy-catalog-menu rtl" id="zappy-catalog-menu" dir="rtl" style="display:none">
       <div class="catalog-menu-container">
-        <a href="/products" class="catalog-menu-item catalog-menu-all">כל המוצרים</a>
+        <a href="/products" class="catalog-menu-item catalog-menu-all">כל הדירות</a>
         <div class="catalog-menu-categories" id="zappy-category-links">
           <!-- Categories will be loaded dynamically -->
         </div>
@@ -1178,7 +1178,7 @@
         </div>
         <footer class="iss-card-footer">
           <span class="iss-client-name">ד. לוי</span>
-          <span class="iss-client-location">תל אביב</span>
+          <span class="iss-client-location">גיבורי גטו ורשה 4, חיפה, בתאום מראש, גבון</span>
         </footer>
       </article>
 
@@ -1205,7 +1205,7 @@
         </div>
         <footer class="iss-card-footer">
           <span class="iss-client-name">מ. ור. כהן</span>
-          <span class="iss-client-location">רמת גן</span>
+          <span class="iss-client-location">גיבורי גטו ורשה 4, חיפה, בתאום מראש, גבון</span>
         </footer>
       </article>
 
@@ -1311,14 +1311,14 @@
         <ul class="footer-contact">
           <li>
             <span class="contact-icon"><i class="fas fa-envelope" data-element-type="icon" data-element-id="icon-1776507168257-z6vqueotn" data-icon-type="fontawesome"></i></span>
-            <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
+            <span class="contact-text"><a href="mailto:moria33.segal@gmail.com">moria33.segal@gmail.com</a></span>
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone" data-element-type="icon" data-element-id="icon-1776507168257-7x9mlnpgy" data-icon-type="fontawesome"></i></span>
-            <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+            <span class="contact-text"><a href="tel:0505501454">0505501454</a></span>
           </li>
-          <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
-            <span class="contact-text">[business_address]</span></a></li>
+          <li><a href="/" style="display:flex;align-items:flex-start;gap:inherit"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+            <span class="contact-text">גיבורי גטו ורשה 4, חיפה, בתאום מראש, גבון</span></a></li>
         </ul>
       </div>
 
